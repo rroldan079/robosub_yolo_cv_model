@@ -1,6 +1,6 @@
-train: train/images
-val: valid/images
-test: test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 7
 names: ['black_poster', 'divider', 'left_gate_poster', 'right_gate_poster', 'shark', 'swordfish', 'white_poster']
@@ -8,6 +8,6 @@ names: ['black_poster', 'divider', 'left_gate_poster', 'right_gate_poster', 'sha
 roboflow:
   workspace: robosubmodels
   project: robosub_competition_2025-a54ot
-  version: 1
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/robosubmodels/robosub_competition_2025-a54ot/dataset/1
+  url: https://universe.roboflow.com/robosubmodels/robosub_competition_2025-a54ot/dataset/2
