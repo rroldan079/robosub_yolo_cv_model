@@ -3,11 +3,11 @@ val: ../valid/images
 test: ../test/images
 
 nc: 7
-names: ['black_poster', 'divider', 'left_gate_poster', 'right_gate_poster', 'shark', 'swordfish', 'white_poster']
+names: ['divider', 'left_gate_post', 'red_post', 'right_gate_post', 'shark', 'swordfish', 'white_post']
 
 roboflow:
   workspace: robosubmodels
-  project: robosub_competition_2025-a54ot
-  version: 2
+  project: robosub_2025_corrected-qrczt
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/robosubmodels/robosub_competition_2025-a54ot/dataset/2
+  url: https://universe.roboflow.com/robosubmodels/robosub_2025_corrected-qrczt/dataset/1

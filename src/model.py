@@ -20,7 +20,7 @@ def load_model(file_name):
 # Train a YOLO model briefly and save weights
 def save_model(file_name):
     model = yolo.YOLO("../pytorch/yolov8n.pt")
-    model.train(data="../RoboFlow/data.yaml", epochs=10)
+    model.train(data="../RoboFlow/data.yaml", epochs=30, device='xpu')
     save_path = os.path.join(file_path, f"{file_name}.pt")
     torch.save(model.model.state_dict(), save_path)
     print(f"YOLO model saved at {save_path}")
@@ -80,4 +80,3 @@ while True:
         print("2. load: Load a model")
     
     time.sleep(3)
-    os.system("clear")

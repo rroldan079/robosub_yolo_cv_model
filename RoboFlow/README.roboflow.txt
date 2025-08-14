@@ -1,8 +1,8 @@
 
-RoboSub_Competition_2025 - v2 RoboFlow Instant 1 [Eval]
+robosub_2025_corrected - v1 Roboflow Instant 1 [Eval]
 ==============================
 
-This dataset was exported via roboflow.com on August 13, 2025 at 8:58 PM GMT
+This dataset was exported via roboflow.com on August 13, 2025 at 11:56 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,8 +17,8 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 170 images.
-Objects are annotated in YOLOv8 format.
+The dataset includes 101 images.
+Underwater_object are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
